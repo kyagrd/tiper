@@ -18,7 +18,9 @@ You can do simple experiments within these webpages, without installing SWI-Prol
   - http://kyagrd.koding.io:3050/example/HM.swinb
     powerd by SWISH (with parsing)
 * HM + type-constructor poly + kind poly:
-  - TODO examples to be posted soon
+  - http://ideone.com/q44ufk
+    powerd by IDEone (Fork to edit and run experiments)
+  - TODO examples to be posted soon as SIWSH notebook
 
 ## Future Plans
 * Support more features 
