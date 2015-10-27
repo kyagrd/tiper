@@ -8,12 +8,12 @@ You can do simple experiments within these webpages, without installing SWI-Prol
 
 * Simply-Typed Lambda Calculus (STLC)
   - http://ideone.com/WcKYu0
-    powerd by IDEone
+    powerd by IDEone (Fork to edit and run experiments)
   - http://kyagrd.koding.io:3050/example/STLC.swinb
     powerd by SWISH (with parsing)
 * Hindley--Milner type sysstem (HM):
   - http://ideone.com/cI0oXR
-    powerd by IDEone
+    powerd by IDEone (Fork to edit and run experiments)
   - http://kyagrd.koding.io:3050/example/STLC.swinb
     powerd by SWISH (with parsing)
 * HM + type-constructor poly + kind poly:
