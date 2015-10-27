@@ -15,7 +15,7 @@ You can do simple experiments within these webpages, without installing SWI-Prol
 * Hindley--Milner type sysstem (HM):
   - http://ideone.com/cI0oXR
     powerd by IDEone (Fork to edit and run experiments)
-  - http://kyagrd.koding.io:3050/example/STLC.swinb
+  - http://kyagrd.koding.io:3050/example/HM.swinb
     powerd by SWISH (with parsing)
 * HM + type-constructor poly + kind poly:
   - TODO examples to be posted soon
