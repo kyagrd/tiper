@@ -7,11 +7,15 @@ Here are some examples from our FLOPS 2016 sumbission made accessible via online
 You can do simple experiments within these webpages, without installing SWI-Prolog on your local system.
 
 * Simply-Typed Lambda Calculus (STLC)
-  - http://ideone.com/WcKYu0 powerd by IDEone
-  - powerd by SWISH (with parsing)
+  - http://ideone.com/WcKYu0
+    powerd by IDEone
+  - http://kyagrd.koding.io:3050/example/STLC.swinb
+    powerd by SWISH (with parsing)
 * Hindley--Milner type sysstem (HM):
-  - http://ideone.com/cI0oXR powerd by IDEone
-  - powerd by SWISH (with parsing)
+  - http://ideone.com/cI0oXR
+    powerd by IDEone
+  - http://kyagrd.koding.io:3050/example/STLC.swinb
+    powerd by SWISH (with parsing)
 * HM + type-constructor poly + kind poly:
   - TODO examples to be posted soon
 
