@@ -23,6 +23,7 @@ You can do simple experiments within these webpages, without installing SWI-Prol
   - TODO examples to be posted soon as SIWSH notebook
 
 ## Future Plans
+* Error handling and parser integration
 * Support more features 
   - row polymorphism (as in PureScript)
   - term indices (as in Nax)
