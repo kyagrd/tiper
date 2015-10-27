@@ -27,7 +27,7 @@ You can do simple experiments within these webpages, without installing SWI-Prol
   - TODO examples to be posted soon as SIWSH notebook
 
 ## Future Plans
-* Error handling and parser integration
+* Error handling and parser integration.
 * Support more features 
   - row polymorphism (as in PureScript)
   - term indices (as in Nax)
@@ -35,9 +35,9 @@ You can do simple experiments within these webpages, without installing SWI-Prol
   - null-handling (as in Kotlin)
   - measures of unit
   - ... (and maybe more)
-* Research/case-study on alternative LP semantics including S-resolution, which may be better suited for type checking/inference
-* Implementation based on an embedded DSL for LP such as micro-Kanren
-* Plugins for IDEs and scriptable editors
+* Research/case-study on alternative LP semantics including S-resolution, which may be better suited for type checking/inference.
+* Implementation based on an embedded DSL for LP such as micro-Kanren. (This will lift the dependency on SWI-Prolog)
+* Plugins for IDEs and scriptable editors.
 
 ## Papres related to TIPER
 * [Executable Relational Specifications of Polymorphic Type Systems using Prolog](https://www.sharelatex.com/project/557756cfdfb75ebd54bf5807), Ki Yung Ahn and Andreas Vezzosi, submitted to FLOPS 2016 ([talk slides](http://slides.com/kyagrd/tiperdundee))
