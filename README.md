@@ -31,6 +31,7 @@ You can do simple experiments within these webpages, without installing SWI-Prol
 * Support more features 
   - row polymorphism (as in PureScript)
   - term indices (as in Nax)
+  - Genralized Algebriac Data Type(GADT)s
   - qualified types such as type classes
   - null-handling (as in Kotlin)
   - measures of unit
