@@ -22,7 +22,7 @@ You can do simple experiments within these webpages, without installing SWI-Prol
     powerd by IDEone (Fork to edit and run experiments)
   - TODO examples to be posted soon as SIWSH notebook
 * HM + tycon poly + kind poly + (non-nested) pattern macthing + Mendler-style recursion over algebraic data types:
-  - http://ideone.com/Iv52Y5 TOOD still need some work on the example TODO
+  - http://ideone.com/Iv52Y5
     powerd by IDEone (Fork to edit and run experiments)
   - TODO examples to be posted soon as SIWSH notebook
 
