@@ -1,3 +1,10 @@
+% related paper:
+%
+% Membership-Constraints and Complexity in Logic Programming with Sets,
+% Frieder Stolzenburg (1996).
+% http://link.springer.com/chapter/10.1007%2F978-94-009-0349-4_15
+% http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.54.8356
+
 % set membership with non-pure builtin \==
 % to cut down duplicate answers as sets
 memb(X,[X|_]).
@@ -9,26 +16,43 @@ unify_set(A,B) :- subset_of(A,B), subset_of(B,A).
 subset_of([], _).
 subset_of([X|R],L) :- memb(X,L), subset_of(R,L).
 
-% unify open ended sets with possibly uninstantiated variable tail at the end
-unify_oeset(A,B) :- ( var(A); var(B) ), !, A=B.
-unify_oeset(A,B) :-
-	split_heads(A,Xs-T1), make_set(Xs,S1),
-       	split_heads(B,Ys-T2), make_set(Ys,S2),
-        unify_oe_set(S1-T1, S2-T2).
+% finite set union
+union([],B,B).
+union(A,[],A).
+union([X|Xs],B,C) :- memb(X,B), !, union(Xs,B,C).
+union([X|Xs],B,[X|C]) :- union(Xs,B,C).
 
-make_set(L,S) :- setof(X,memb(X,L),S).
+% finite set intersection
+intersect([],_,[]).
+intersect(_,[],[]).
+intersect([X|Xs],B,[X|C]) :- memb(X,B), !, intersect(Xs,B,C).
+intersect([_|Xs],B,C) :- intersect(Xs,B,C).
 
-split_heads([],[]-[]).
-split_heads([X|T],[X]-T) :- var(T), !, true.
-split_heads([X|Xs],[X|Hs]-T) :- split_heads(Xs,Hs-T).
-
-% helper function for unify_oeset (naive solution, possibly many duplication)
-unify_oe_set(Xs-T1,Ys-T2) :- T1==[], T2==[], unify_set(Xs,Ys).
-unify_oe_set(Xs-T1,Ys-T2) :- T1==[], subset_of(Ys,Xs), T2=Xs.
-unify_oe_set(Xs-T1,Ys-T2) :- T2==[], subset_of(Xs,Ys), T1=Ys.
-unify_oe_set(Xs-T1,Ys-T2) :- append(Xs,Ys,Zs), append(Zs,T,T1), append(Zs,T,T2).
-
+% finite set minus
+setminus(A,[],A).
+setminus([],_,[]).
+setminus([X|Xs],B,C) :- memb(X,B), !, setminus(Xs,B,C).
+setminus([X|Xs],B,[X|C]) :- setminus(Xs,B,C).
 
 
-%% ?- unify_oeset([1,3,5,9|T1],[2,3,5,6|T2]).
-%% T1 = T2, T2 = [1, 3, 5, 9, 2, 3, 5, 6|_G505].
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% once inspired by the idea of the paper,
+% finite map unification is just like this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% unify finite maps
+unify_map(A,B) :- submap_of(A,B), submap_of(B,A).
+
+submap_of([], _).
+submap_of([X:V|R],M) :- first(X:V,M), submap_of(R,M).
+
+% search key and find value in a finite map
+first(X:V,[X:V|_]).
+first(X:V,[Y:_|L]) :- X \== Y, first(X:V,L).
+
+% finite map minus
+mapminus(A,[],A).
+mapminus([],_,[]).
+mapminus([X:V|Ps],B,C) :- first(X:V1,B), !, (V1 = V -> mapminus(Ps,B,C); fail).
+mapminus([X:V|Ps],B,[X:V|C]) :- mapminus(Ps,B,C).
+
