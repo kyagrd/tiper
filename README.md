@@ -53,10 +53,10 @@ accessible via online SWI-Prolog environments. You can do simple experiments wit
 
 ## Papers, Talks, and Projects related to TIPER
 * [Executable Relational Specifications of Polymorphic Type Systems using Prolog](https://www.sharelatex.com/project/557756cfdfb75ebd54bf5807).
-  Ki Yung Ahn and Andreas Vezzosi. To appear in FLOPS 2016
+  Ki Yung Ahn and Andreas Vezzosi. FLOPS 2016.
   ([talk slides](http://slides.com/kyagrd/tiperdundee))
 
-* [Coinductive type systems for object-oriented languages.](ftp://ftp.disi.unige.it/person/AnconaD/ECOOP09.pdf).
+* [Coinductive type systems for object-oriented languages](ftp://ftp.disi.unige.it/person/AnconaD/ECOOP09.pdf).
   D. Ancona and G. Lagori. ECOOP 2009 (LNCS 5653).
 
 * [Delimited Continuations for Prolog](http://people.cs.kuleuven.be/~tom.schrijvers/portfolio/iclp2013.html).
