@@ -56,6 +56,8 @@ accessible via online SWI-Prolog environments. You can do simple experiments wit
   Ki Yung Ahn and Andreas Vezzosi. FLOPS 2016.
   ([talk slides](http://slides.com/kyagrd/tiperdundee))
 
+* [Structural Resolution](http://staff.computing.dundee.ac.uk/katya/CoALP/)
+
 * [Coinductive type systems for object-oriented languages](http://www.disi.unige.it/person/AnconaD/papers/Types_abstracts.html#AL-ECOOP09).
   D. Ancona and G. Lagori. ECOOP 2009 (LNCS 5653).
 
@@ -64,10 +66,7 @@ accessible via online SWI-Prolog environments. You can do simple experiments wit
   ICLP 2013 (TPLP).
   ([talk slides](http://www-ps.informatik.uni-kiel.de/kdpd2013/talks/schrijvers.pdf))
 
-* http://miniKanren.org/
-
-* TODO add publication/draft/talk slides written by others that would potentially benefit the project
-  e.g., S-resolution and its application to type classes,
+* [miniKanren](http://miniKanren.org/)
 
 ## Members, Partners, Collaborators, and Contributors
 * [Davide Ancona](http://www.disi.unige.it/person/AnconaD/)
