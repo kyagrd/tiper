@@ -48,13 +48,22 @@ accessible via online SWI-Prolog environments. You can do simple experiments wit
   - measures of unit
   - ... (and maybe more)
 * Research/case-study on alternative LP semantics including S-resolution, which may be better suited for type checking/inference.
-* Implementation based on an embedded DSL for LP such as micro-Kanren. (This will lift the dependency on SWI-Prolog)
-* Plug-ins for IDEs and scriptable editors.
+* Implementation based on an embedded DSL for LP such as micro-Kanren. (This will lift the dependency on SWI-Prolog and make TIPER possible directly target many other languages where Kanren has already been implemented.)
+* Plug-ins for IDEs and scriptable editors, which are do neccesarily depend on a specific compiler/interpreter implementation.  This will be possible when our project sucessfully delivers a mature (easy-to-use & portalbe) version of TIPER.
 
 ## Papers related to TIPER
 * [Executable Relational Specifications of Polymorphic Type Systems using Prolog](https://www.sharelatex.com/project/557756cfdfb75ebd54bf5807),
   Ki Yung Ahn and Andreas Vezzosi, to appear in FLOPS 2016
   ([talk slides](http://slides.com/kyagrd/tiperdundee))
 * TODO add publication/draft/talk slides written by others that would potentially benefit the project
-  e.g., S-resolution and its application to type classes,
-  coLP for OOPL type inference, etc ...
+  e.g., S-resolution and its application to type classes, delimited control for Prolog,
+  coLP for OOPL type inference, mini/micro-Kanren, etc ...
+
+## Members, Partners, Collaborators, and Contributors
+* [Davide Ancona](http://www.disi.unige.it/person/AnconaD/)
+* [Ki Yung Ahn](http://kyagrd.github.io/)
+* [Peng Fu](http://staff.computing.dundee.ac.uk/pengfu/)
+* [Ekaterina Komendanskaya](http://staff.computing.dundee.ac.uk/katya/)
+* [Patricia Johan](http://cs.appstate.edu/~johannp/)
+* [Tom Schrivers](http://people.cs.kuleuven.be/~tom.schrijvers/)
+* [Andrea Vezzosi](http://www.cse.chalmers.se/~vezzosi/)
