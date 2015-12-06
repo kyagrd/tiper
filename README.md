@@ -39,14 +39,15 @@ accessible via online SWI-Prolog environments. You can do simple experiments wit
 * Error handling and parser integration.
 * Support more features
   - extensible records by row polymorphism (as in PureScript)
-    - *New update*: We already have all the ingredients to specify this!
-    see https://github.com/kyagrd/ExtensibleRecordsWithSetMembLP
+    - *New update*: We already have all the ingredients to specify this in Prolog!
+    See https://github.com/kyagrd/ExtensibleRecordsWithSetMembLP
   - term indices (as in Nax)
+  - first class polymorphism and modules
   - Generalized Algebraic Data Type(GADT)s
   - qualified types such as type classes
   - null-handling (as in Kotlin)
   - measures of unit
-  - ... (and maybe more)
+  - ... (and maybe more including OO-related features) ...
 * Research/case-study on alternative LP semantics including S-resolution, which may be better suited for type checking/inference.
 * Implementation based on an embedded DSL for LP such as micro-Kanren. (This will lift the dependency on SWI-Prolog and make TIPER possible directly target many other languages where Kanren has already been implemented.)
 * Plug-ins for IDEs and scriptable editors, which are do neccesarily depend on a specific compiler/interpreter implementation.  This will be possible when our project sucessfully delivers a mature (easy-to-use & portalbe) version of TIPER.
@@ -56,7 +57,7 @@ accessible via online SWI-Prolog environments. You can do simple experiments wit
   Ki Yung Ahn and Andreas Vezzosi. FLOPS 2016.
   ([talk slides](http://slides.com/kyagrd/tiperdundee))
 
-* [Structural Resolution](http://staff.computing.dundee.ac.uk/katya/CoALP/)
+* [Structural Resolution (S-resolution)](http://staff.computing.dundee.ac.uk/katya/CoALP/)
 
 * [Coinductive type systems for object-oriented languages](http://www.disi.unige.it/person/AnconaD/papers/Types_abstracts.html#AL-ECOOP09).
   D. Ancona and G. Lagori. ECOOP 2009 (LNCS 5653).
