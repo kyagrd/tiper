@@ -38,7 +38,9 @@ accessible via online SWI-Prolog environments. You can do simple experiments wit
 ## Future Plans
 * Error handling and parser integration.
 * Support more features
-  - row polymorphism (as in PureScript)
+  - extensible records by row polymorphism (as in PureScript)
+    - *New update*: We already have all the ingredients to specify this!
+    see https://github.com/kyagrd/ExtensibleRecordsWithSetMembLP
   - term indices (as in Nax)
   - Generalized Algebraic Data Type(GADT)s
   - qualified types such as type classes
@@ -53,5 +55,6 @@ accessible via online SWI-Prolog environments. You can do simple experiments wit
 * [Executable Relational Specifications of Polymorphic Type Systems using Prolog](https://www.sharelatex.com/project/557756cfdfb75ebd54bf5807),
   Ki Yung Ahn and Andreas Vezzosi, to appear in FLOPS 2016
   ([talk slides](http://slides.com/kyagrd/tiperdundee))
-* TODO add S-resolution and its application to type classes,
+* TODO add publication/draft/talk slides written by others that would potentially benefit the project
+  e.g., S-resolution and its application to type classes,
   coLP for OOPL type inference, etc ...
