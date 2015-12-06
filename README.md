@@ -77,3 +77,5 @@ accessible via online SWI-Prolog environments. You can do simple experiments wit
 * [Patricia Johan](http://cs.appstate.edu/~johannp/)
 * [Tom Schrivers](http://people.cs.kuleuven.be/~tom.schrijvers/)
 * [Andrea Vezzosi](http://www.cse.chalmers.se/~vezzosi/)
+
+Let us know if you should/want to be on this list for your contribution.
