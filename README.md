@@ -56,7 +56,7 @@ accessible via online SWI-Prolog environments. You can do simple experiments wit
   Ki Yung Ahn and Andreas Vezzosi. FLOPS 2016.
   ([talk slides](http://slides.com/kyagrd/tiperdundee))
 
-* <a href="ftp://ftp.disi.unige.it/person/AnconaD/AZ-CoLP12.pdf">Coinductive type systems for object-oriented languages</a>.
+* [Coinductive type systems for object-oriented languages](http://www.disi.unige.it/person/AnconaD/papers/Types_abstracts.html#AL-ECOOP09).
   D. Ancona and G. Lagori. ECOOP 2009 (LNCS 5653).
 
 * [Delimited Continuations for Prolog](http://people.cs.kuleuven.be/~tom.schrijvers/portfolio/iclp2013.html).
