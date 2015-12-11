@@ -13,7 +13,7 @@ interested in further details.
 In our preliminary case study, we have demonstrated that Logic Programming (LP) is suitable for declarative & executable specifications of polymorphic type systems including advanced features such as type-constructor polymorphism (a.k.a. higher-kinded polymorphism) and kind polymorphism, in addition to type polymorphism in the Hindley--Milner type system (HM). Because our specification is _relational_, rather than functional, we were able to specify both type checking and type inference without duplication. Being based on LP, our specification is _excutable_ on a machine. Executable specifications reduce the gap between a specification and an implementation. Our specification is not only executable for testing the result of type checking but also serves as a reference implementation for a type inference engine, because the specification can run both ways bidirectionally as a logic program.
 
 ## Proof-of-Concept Interactive Examples
-Here are some examples from [the draft of our FLOPS 2016 paper](https://www.sharelatex.com/project/557756cfdfb75ebd54bf5807) made
+Here are some examples from [our FLOPS 2016 paper](https://www.sharelatex.com/project/557756cfdfb75ebd54bf5807) made
 accessible via online SWI-Prolog environments. You can do simple experiments within these webpages, without installing SWI-Prolog on your local system.
 
 * Simply-Typed Lambda Calculus (STLC)
