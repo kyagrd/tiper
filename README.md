@@ -79,3 +79,7 @@ accessible via online SWI-Prolog environments. You can do simple experiments wit
 * [Andrea Vezzosi](http://www.cse.chalmers.se/~vezzosi/)
 
 Let us know if you should/want to be on this list for your contribution.
+
+
+--------
+[[.. ⮥]](http://kyagrd.github.io/) (back to homepage)
