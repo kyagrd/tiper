@@ -14,7 +14,7 @@ In our preliminary case study, we have demonstrated that Logic Programming (LP) 
 
 ## Proof-of-Concept Interactive Examples
 Here are some examples from [our FLOPS 2016 paper](https://www.sharelatex.com/project/557756cfdfb75ebd54bf5807) made
-accessible via online SWI-Prolog environments. You can do simple experiments within these webpages, without installing SWI-Prolog on your local system.
+accessible (and also refined, more celaned up than the code in the paper) via online SWI-Prolog environments. You can do simple experiments within these webpages, without installing SWI-Prolog on your local system.
 
 * Simply-Typed Lambda Calculus (STLC)
   - http://ideone.com/WcKYu0
