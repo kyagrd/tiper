@@ -1,9 +1,9 @@
 TIPER aims to automatically generate
 Type Inference Prototyping Engine from Relational specifications of
-type systems. Our ultimate goal for the TIPER project is to build a framework
+type systems. Our goal is to build a practical framework called TIPER
 that automates type system implementations just as parser implementations are
 automated by parser generators, ever since Yacc was developed in the 70's.
-This project will reduce the high-cost of type system implementations supporting
+Such a framework will reduce the high-cost of type system implementations supporting
 type inference so that advancements in type systems research would become much
 more available to the developers as a cost-effective technology to support in
 a language implementation. You may take a look at
@@ -52,9 +52,9 @@ accessible (and also refined, more celaned up than the code in the paper) via on
   - ... (and maybe more including OO-related features) ...
 * Research/case-study on alternative LP semantics including S-resolution, which may be better suited for type checking/inference.
 * Implementation based on an embedded DSL for LP such as micro-Kanren. (This will lift the dependency on SWI-Prolog and make TIPER possible directly target many other languages where Kanren has already been implemented.)
-* Plug-ins for IDEs and scriptable editors, which are do neccesarily depend on a specific compiler/interpreter implementation.  This will be possible when our project sucessfully delivers a mature (easy-to-use & portalbe) version of TIPER.
+* Plug-ins for IDEs and scriptable editors, which are do neccesarily depend on a specific compiler/interpreter implementation.  This will be possible at a stage when we produce a mature (easy-to-use & portalbe) version of TIPER.
 
-## Papers, Talks, and Projects related to TIPER
+## Papers and Talks related to TIPER
 * [Executable Relational Specifications of Polymorphic Type Systems using Prolog](https://www.sharelatex.com/project/557756cfdfb75ebd54bf5807).
   Ki Yung Ahn and Andreas Vezzosi. FLOPS 2016.
   ([talk slides](http://slides.com/kyagrd/tiperdundee))
@@ -71,7 +71,7 @@ accessible (and also refined, more celaned up than the code in the paper) via on
 
 * [miniKanren](http://miniKanren.org/)
 
-## Members, Partners, Collaborators, and Contributors
+## Supportive Partners, Collaborators, and Contributors
 * [Davide Ancona](http://www.disi.unige.it/person/AnconaD/)
 * [Ki Yung Ahn](http://kyagrd.github.io/)
 * [Peng Fu](http://staff.computing.dundee.ac.uk/pengfu/)
