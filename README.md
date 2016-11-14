@@ -28,8 +28,9 @@ accessible (and also refined, more celaned up than the code in the paper) via on
 * HM + tycon poly + kind poly + (non-nested) pattern matching + Mendler-style recursion over algebraic data types:
   - http://ideone.com/Iv52Y5
     powered by IDEone (Fork to edit and run experiments)
-* In addtion to the FLOPS paper examples we also have sepc (which is not yet put on to online IDE) for inferring with extensible records based on row polymorphism (unfortunately type annotation does not work because it is not really a order independent unification) https://github.com/kyagrd/HMtyInferUsingProlog/blob/master/HMtcRpoly.pl 
-
+* HM + tycon poly + row poly (for extensible records)
+  - http://ideone.com/x13a5O
+    powered by IDEone (Fork to edit and run experiments)
 
 ## Future Plans
 * Error handling and parser integration.
