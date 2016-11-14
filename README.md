@@ -35,9 +35,6 @@ accessible (and also refined, more celaned up than the code in the paper) via on
 ## Future Plans
 * Error handling and parser integration.
 * Support more features
-  - extensible records by row polymorphism (as in PureScript)
-    - *New update*: We already have all the ingredients to specify this in Prolog!
-    See https://github.com/kyagrd/ExtensibleRecordsWithSetMembLP
   - term indices (as in Nax)
   - first class polymorphism and modules
   - Generalized Algebraic Data Type(GADT)s
