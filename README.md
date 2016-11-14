@@ -50,7 +50,7 @@ accessible (and also refined, more celaned up than the code in the paper) via on
 * [Executable Relational Specifications of Polymorphic Type Systems using Prolog](https://www.sharelatex.com/project/557756cfdfb75ebd54bf5807).
   Ki Yung Ahn and Andreas Vezzosi. FLOPS 2016.
   ([talk slides](http://slides.com/kyagrd/tiperdundee))
-     * We recommend using Prolog code examples above rather than the code in the paper. The version posted online are more refined with bug fixes (e.g., possible issues with `bagof`).
+     * We recommend using Prolog code examples above linked to this page rather than the code in the paper. The version posted online are more refined with bug fixes (e.g., possible issues with `bagof`).
 * [Structural Resolution (S-resolution)](http://staff.computing.dundee.ac.uk/katya/CoALP/)
 
 * [Coinductive type systems for object-oriented languages](http://www.disi.unige.it/person/AnconaD/papers/Types_abstracts.html#AL-ECOOP09).
