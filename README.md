@@ -19,21 +19,15 @@ accessible (and also refined, more celaned up than the code in the paper) via on
 * Simply-Typed Lambda Calculus (STLC)
   - http://ideone.com/WcKYu0
     powered by IDEone (Fork to edit and run experiments)
-  - http://kyagrd.koding.io:3050/example/STLC.swinb
-    powered by SWISH (with parsing)
 * Hindley--Milner type system (HM):
   - http://ideone.com/cI0oXR
     powered by IDEone (Fork to edit and run experiments)
-  - http://kyagrd.koding.io:3050/example/HM.swinb
-    powerd by SWISH (with parsing)
 * HM + type-constructor polymorphism + kind polymorphism:
   - http://ideone.com/q44ufk
     powered by IDEone (Fork to edit and run experiments)
-  - TODO examples to be posted soon as SIWSH notebook
 * HM + tycon poly + kind poly + (non-nested) pattern matching + Mendler-style recursion over algebraic data types:
   - http://ideone.com/Iv52Y5
     powered by IDEone (Fork to edit and run experiments)
-  - TODO examples to be posted soon as SIWSH notebook
 * In addtion to the FLOPS paper examples we also have sepc (which is not yet put on to online IDE) for inferring with extensible records based on row polymorphism (unfortunately type annotation does not work because it is not really a order independent unification) https://github.com/kyagrd/HMtyInferUsingProlog/blob/master/HMtcRpoly.pl 
 
 
@@ -58,7 +52,7 @@ accessible (and also refined, more celaned up than the code in the paper) via on
 * [Executable Relational Specifications of Polymorphic Type Systems using Prolog](https://www.sharelatex.com/project/557756cfdfb75ebd54bf5807).
   Ki Yung Ahn and Andreas Vezzosi. FLOPS 2016.
   ([talk slides](http://slides.com/kyagrd/tiperdundee))
-
+     * We recommend using Prolog code examples above rather than the code in the paper. The version posted online are more refined with bug fixes (e.g., possible issues with `bagof`).
 * [Structural Resolution (S-resolution)](http://staff.computing.dundee.ac.uk/katya/CoALP/)
 
 * [Coinductive type systems for object-oriented languages](http://www.disi.unige.it/person/AnconaD/papers/Types_abstracts.html#AL-ECOOP09).
