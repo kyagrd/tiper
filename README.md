@@ -7,7 +7,7 @@ Such a framework will reduce the high-cost of type system implementations suppor
 type inference so that advancements in type systems research would become much
 more available to the developers as a cost-effective technology to support in
 a language implementation. You may take a look at
-the [talk slides on TIPER](https://slides.com/kyagrd/tiper-flops2016) if you are
+the [talk slides on TIPER](https://slides.com/kyagrd/rowpoly-coalpty16) if you are
 interested in further details.
 
 In our preliminary case study, we have demonstrated that Logic Programming (LP) is suitable for declarative & executable specifications of polymorphic type systems including advanced features such as type-constructor polymorphism (a.k.a. higher-kinded polymorphism) and kind polymorphism, in addition to type polymorphism in the Hindley--Milner type system (HM). Because our specification is _relational_, rather than functional, we were able to specify both type checking and type inference without duplication. Being based on LP, our specification is _excutable_ on a machine. Executable specifications reduce the gap between a specification and an implementation. Our specification is not only executable for testing the result of type checking but also serves as a reference implementation for a type inference engine, because the specification can run both ways bidirectionally as a logic program.
@@ -48,9 +48,10 @@ accessible (and also refined, more celaned up than the code in the paper) via on
 
 ## Papers and Talks related to TIPER
 * [Executable Relational Specifications of Polymorphic Type Systems using Prolog](https://www.sharelatex.com/project/557756cfdfb75ebd54bf5807).
-  Ki Yung Ahn and Andreas Vezzosi. FLOPS 2016.
-  ([talk slides](http://slides.com/kyagrd/tiperdundee))
-     * We recommend using Prolog code examples above linked to this page rather than the code in the paper. The version posted online are more refined with bug fixes (e.g., possible issues with `bagof`).
+  * Ki Yung Ahn and Andreas Vezzosi. FLOPS 2016.
+    ([talk slides](http://slides.com/kyagrd/tiperdundee))
+      We recommend using Prolog code examples above linked to this page rather than the code in the paper. The version posted online are more refined with bug fixes (e.g., possible issues with `bagof`).
+  * Talk on adding Row Polymorhisim at CoALP-Ty 2016 workshop ([talk slides](https://slides.com/kyagrd/rowpoly-coalpty16))
 * [Structural Resolution (S-resolution)](http://staff.computing.dundee.ac.uk/katya/CoALP/)
 
 * [Coinductive type systems for object-oriented languages](http://www.disi.unige.it/person/AnconaD/papers/Types_abstracts.html#AL-ECOOP09).
