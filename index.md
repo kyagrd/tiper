@@ -16,20 +16,20 @@ In our preliminary case study, we have demonstrated that Logic Programming (LP) 
 Here are some examples from [our FLOPS 2016 paper](https://www.sharelatex.com/project/557756cfdfb75ebd54bf5807) made
 accessible (and also refined, more celaned up than the code in the paper) via online SWI-Prolog environments. You can do simple experiments within these webpages, without installing SWI-Prolog on your local system.
 
-* Simply-Typed Lambda Calculus (STLC)
-  - http://ideone.com/WcKYu0
+* [Simply-Typed Lambda Calculus (STLC)
+  - [http://ideone.com/WcKYu0](http://ideone.com/WcKYu0)
     powered by IDEone (Fork to edit and run experiments)
 * Hindley--Milner type system (HM):
-  - http://ideone.com/cI0oXR
+  - [http://ideone.com/cI0oXR](http://ideone.com/cI0oXR])
     powered by IDEone (Fork to edit and run experiments)
 * HM + type-constructor polymorphism + kind polymorphism:
-  - http://ideone.com/q44ufk
+  - [http://ideone.com/q44ufk](http://ideone.com/q44ufk)
     powered by IDEone (Fork to edit and run experiments)
 * HM + tycon poly + kind poly + (non-nested) pattern matching + Mendler-style recursion over algebraic data types:
-  - http://ideone.com/Iv52Y5
+  - [http://ideone.com/Iv52Y5](http://ideone.com/Iv52Y5)
     powered by IDEone (Fork to edit and run experiments)
 * HM + tycon poly + row poly (for extensible records)
-  - http://ideone.com/x13a5O
+  - [http://ideone.com/x13a5O](http://ideone.com/x13a5O)
     powered by IDEone (Fork to edit and run experiments)
 
 ## Future Plans
