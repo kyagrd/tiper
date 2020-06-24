@@ -20,7 +20,7 @@ accessible (and also refined, more celaned up than the code in the paper) via on
   - [http://ideone.com/WcKYu0](http://ideone.com/WcKYu0)
     powered by IDEone (Fork to edit and run experiments)
 * Hindley--Milner type system (HM):
-  - [http://ideone.com/cI0oXR](http://ideone.com/cI0oXR])
+  - [http://ideone.com/cI0oXR](http://ideone.com/cI0oXR)
     powered by IDEone (Fork to edit and run experiments)
 * HM + type-constructor polymorphism + kind polymorphism:
   - [http://ideone.com/q44ufk](http://ideone.com/q44ufk)
